@@ -1,12 +1,13 @@
 var fs = require('fs');
 var c = require('./config/commands.json')
 const sharp = require('sharp');
-const m = require('./tets2.json');
 
 var n1 = '50370649152@s.whatsapp.net';
 var n2 = '50379404214@s.whatsapp.net';
 //console.log(m.participants)
 
+var msg='!hola XD';
+console.log(msg.split(' ')[0].slice(1))
 
 
 //VERF ADMIN
